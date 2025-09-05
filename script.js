@@ -102,6 +102,7 @@ window.addEventListener("load", function () {
     }
     play(){
       this.sound.currentTime = 0;
+        this.sound.volume = 0.1;
       this.sound.play();
     }
     reset() {
@@ -236,3 +237,4 @@ window.addEventListener("load", function () {
   }
   animate(0);
 });
+
